@@ -1,0 +1,174 @@
+body {
+  background: url("./img/BGPrincipal.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header {
+  margin-bottom: 180px;
+}
+
+img {
+  width: -webkit-fill-available;
+}
+
+.img-carrossel {
+  width: 50px;
+  height: 52px;
+}
+
+.img-financa {
+  max-width: 100%;
+}
+
+button:focus {
+  outline: none;
+}
+
+.logo {
+  width: 150px;
+  height: 75px;
+}
+.nav-link:hover {
+  border: 2px solid transparent;
+  border-bottom-color: #ff3242;
+  color: #30003c;
+  font-family: "Nunito", sans-serif;
+}
+.nav-link {
+  color: #30003c;
+  font-family: "Nunito", sans-serif;
+}
+.nav-fill {
+  border-bottom-color: #30003c;
+  border-bottom: 2px solid;
+  background-color: #ffffff;
+  box-shadow: 0em 0.2em 0.5rem rgb(48, 0, 60);
+}
+.botao {
+  color: #30003c;
+  background-color: #ffffff;
+  border-color: #30003c;
+  border-radius: 10px;
+  width: 100px;
+  height: 40px;
+}
+.botao:hover {
+  color: #ffffff;
+  background-color: #30003c;
+  border-color: #ffffff;
+  border-radius: 10px;
+}
+.pSlider {
+  width: 200px;
+  font-family: "Nunito", sans-serif;
+  color: #30003c;
+}
+.carrosselFundo {
+  background-color: #ffffff;
+  width: 50%;
+  border-radius: 30%;
+}
+.carrosselConteudo {
+  width: 500px;
+  height: 150px;
+  border: solid 2px #30003c;
+}
+
+.carrosselAlinhamento {
+  left: 30%;
+}
+.textos {
+  font-family: "Nunito", sans-serif;
+  color: #30003c;
+}
+div {
+  display: inline-block;
+}
+.divCentral {
+  justify-content: center;
+  align-items: center;
+  display: block;
+}
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2330003c' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2330003c' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+.botaoCampanha {
+  color: #30003c;
+  background-color: #ffffff;
+  border-color: #30003c;
+  border-radius: 25px;
+  font-size: 10px;
+  width: 200px;
+  height: 50px;
+}
+.botaoCampanha:hover {
+  color: #ffffff;
+  background-color: #30003c;
+  border-color: #ffffff;
+  border-radius: 25px;
+}
+.fas {
+  color: #ff3242;
+  display: block;
+  position: relative;
+  left: 39%;
+  top: 35%;
+  font-size: 46px;
+  text-align: center;
+  width: 1em;
+  height: 1em;
+}
+.passos {
+  color: #ff3242;
+  border-radius: 45%;
+  width: 100px;
+  height: 50px;
+  border: solid 2px #30003c;
+  position: absolute;
+  right: 0px;
+  text-align: center;
+}
+.iconeDiv {
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0.2em 0.2em 0.5rem rgba(48, 0, 60, 0.301);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.digitando {
+  border-right: 2px solid rgba(48, 0, 60, 0.712);
+  margin: 0 auto;
+  color: #ff3242;
+  white-space: nowrap;
+  overflow: hidden;
+}
+@keyframes blinkCursor {
+  from {
+    border-right-color: rgba(48, 0, 60, 0.712);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+.animacao-escrita {
+  animation: blinkCursor 800ms steps(40) infinite normal,
+    digitando 4s steps(40) 1s normal;
+}
+@keyframes digitando {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100px;
+  }
+}
