@@ -2,7 +2,7 @@
 <html>
   <h1>ViralEasy</h1>
   <p>
-    Página desenvolvida para a participação de um processo seletivo usando as linguagens HTML, CSS, JavaScript e os frameworks jQuery e Bootstrap 4.
+    Página desenvolvida para a participação de um processo seletivo usando as linguagens HTML, CSS, JavaScript e os frameworks jQuery e Bootstrap.
   </p>
   <h2>Protótipo</h2>
 
